@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Red Hat Display";
+}
+body{
+    background-color: #E0E8FF;
+    background-image: url(/assets/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 327px;
+    height: 567px;
+    box-shadow: 0px 40px 40px -20px #0D30BD27;
+}
+.container2{
+    border-radius: 11px;
+    background: #f7f9ff;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 24px;
+    margin-left: 24px;
+    padding: 16px;
+    margin-bottom: 24px;
+   
+}
+.span1{
+    display: flex;
+    gap: 20px;  
+}
+.notespan1{
+    font-weight: 900;
+    color: #1F2E55;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.81;
+
+}
+.notespan2{
+    font-weight: 500;
+    color: #717FA6;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+.notespan3{
+    font-weight: 700;
+    color: #382AE1;
+    font-size: 13px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.proceed-button{
+    border-radius: 11px;
+    background-color: #382AE1;
+    width: 279px;
+    height: 50px;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 24px;
+    border: none;
+    cursor: pointer;
+}
+.cancel-order{
+    color: #717FA6;
+    margin-bottom: 32px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    }
+.img1{
+    width: 327px;
+    height: 160px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 32px;
+}
+.h1-text{
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 16px
+}
+.p-text{
+    width: 263px;
+    height: 75px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #717FA6;
+}
+.proceed-button:hover{
+    background-color: #766CF1;
+}
+.cancel-order:hover{
+    color: #1F2E55;
+}
+.notespan3:hover{
+    color: #766CF1;
+}
+@media (min-width :1440px){
+    .container{
+        width: 450px;
+        height: 697px;
+        flex-shrink: 0;
+    }
+
+        .h1-text{
+            color: #1F2E55;
+            text-align: center;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            margin-bottom: 17;
+        }
+    
+        .img1{
+            width: 450px;
+            height: 220px;
+            margin-bottom: 45px;
+        }
+        .p-text{
+            width: 354px;
+            font-size: 16px;
+            margin-bottom: 20;
+        }
+        .container2{
+            width: 354px;
+            height: 98px;
+            margin-bottom: 23;
+        }
+        .notespan1{
+            width: 117.19px;
+            font-size: 16px;
+        }
+        .notespan2{
+            width: 92px;
+            font-size: 16px;
+        }
+        .span1{
+            width: 48px;
+            height: 48px;
+        }
+        .span2{
+            display: inline-flex;
+            height: 48px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 6px;
+        }
+        .notespan3{
+            font-size: 14px;
+        }
+        .proceed-button{
+            width: 354px;
+            margin-bottom: 32;
+        }
+        .cancel-order{
+            margin-bottom: 48;
+        }
+    }
